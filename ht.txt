@@ -1,0 +1,17 @@
+var options = {
+  method: 'GET',
+  url: 'https://coinranking1.p.rapidapi.com/coins',
+  params: {
+    referenceCurrencyUuid: 'yhjMzLPhuIDl',
+    timePeriod: '24h',
+    tiers: '1',
+    orderBy: 'marketCap',
+    orderDirection: 'desc',
+    limit: '50',
+    offset: '0'
+  },
+  headers: {
+    'x-rapidapi-host': 'coinranking1.p.rapidapi.com',
+    'x-rapidapi-key': '00265913d0msh6e06e96bebf8bb3p1f4bd9jsn46738a36fa55'
+  }
+};
